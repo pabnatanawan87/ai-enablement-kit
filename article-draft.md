@@ -40,8 +40,9 @@ Four signals cover most of what a first pilot needs:
   winning even if the total looks flat. Judge the pilot primarily on escaped defects.
 - Review throughput and latency - PRs reviewed per week and time to first review. Review is usually
   the real bottleneck, not typing speed.
-- Engineer leverage - how much of the week goes to net-new value versus rote work such as
-  boilerplate, first-draft tests, commit messages, and mechanical refactors.
+- Rework cycles per change - how many review round-trips a change makes before it merges (reviewer
+  requests changes, author pushes a revision). Fewer round-trips means changes arrive closer to
+  correct; it is cheap to pull from PR history and hard to game.
 
 Define each metric once, in writing, before you collect anything. The most common measurement bug is
 quietly changing a definition between baseline and post. Then report every number as baseline versus

@@ -8,7 +8,7 @@ IDs, or real internal metric values as examples (use illustrative placeholders l
 
 ### 1. `00-exec-pitch.md` - one page
 The case for agentic enablement in business terms: faster cycle time, fewer escaped defects, higher
-review throughput, and engineer leverage, against a small, time-boxed, measured pilot. No hype. One
+review throughput, and fewer rework cycles per change, against a small, time-boxed, measured pilot. No hype. One
 page a VP can read. Ends with a single ask (approve a 6-week pilot for one team).
 
 ### 2. `01-90-day-plan.md` - crawl / walk / run

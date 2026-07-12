@@ -25,9 +25,9 @@ issue tracker we already run:
   want to know that cheaply and early rather than after a broad rollout.
 - **Review throughput and latency** - PRs reviewed per week and time to first review. Review is
   usually the real bottleneck, not typing speed.
-- **Engineer leverage** - how much of an engineer's week goes to net-new value versus rote work
-  (boilerplate, first-draft tests, commit messages, mechanical refactors). Leverage is the point;
-  speed is just one way it shows up.
+- **Rework cycles per change** - how many review round-trips a change makes before it merges
+  (reviewer requests changes, author pushes a revision). Fewer round-trips means changes arrive
+  closer to correct; it is cheap to pull from PR history and hard to game.
 
 Every number is reported as baseline versus post, same team, same window length, with confounders
 called out honestly. No vanity metrics. If the data is flat, we say so.
